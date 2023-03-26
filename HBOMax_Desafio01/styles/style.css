@@ -1,0 +1,65 @@
+body{
+  margin-top: 55px;
+  margin-left: 10%;
+  font-family: 'Times New Roman';
+}
+
+html{
+  font-family: 'Times New Roman';
+  line-height: 33px;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 54px;
+  font-size: 29px;
+  margin-bottom: 42px;
+}
+
+header h1{
+  font-weight: 700;
+  font-size: 54px;
+}
+
+form{
+  display: grid;
+  grid-auto-flow: row;
+  font-size: 33px;
+}
+
+label{
+  margin-bottom: 25px;
+}
+
+input{
+  width: 566px;
+  height: 38px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+
+
+
+button{
+  font-size: 33px;
+  background: #EFEFEF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#buttonEntrar{
+  width: 214px;
+  margin-bottom: 42px;
+}
+#buttonEntrarProvedor{
+  width: 366px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 615px){
+  input{
+    width: 400px;
+  }
+}
+
+

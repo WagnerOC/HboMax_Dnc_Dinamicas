@@ -1,0 +1,130 @@
+body{
+  background-color: #000;
+  color: white;
+}
+
+h3{
+  font-size: 29px;
+  font-weight: 400;
+}
+
+.boxAllContent{
+  width: 600px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+header img{
+  width: 165px;
+}
+
+header h1{
+  font-size: 54px;
+}
+header h3{
+  line-height: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+form{
+  display: grid;
+  grid-auto-flow: row;
+  text-align: left;
+  margin-left:10% ;
+}
+
+label{
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 470px;
+  height: 53px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background: #7F7F7F;
+  border-radius: 25px;
+  border: 0;
+  transition: ease-in-out 500ms;
+  padding: 0 0 0 5%;
+}
+
+input:hover{
+  background: #7f7f7fc9;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+button{
+  color: #fff;
+  background: #8C77E0;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  height: 55px;
+  font-size: 33px;
+  transition: ease-in-out 500ms;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #8c77e0b0;
+  color: #d9c4f5;
+}
+
+.buttonEntrar{
+  width: 214px;
+  margin: 44px 0 27px 24%;
+}
+
+.buttonEntrarProvedor{
+  width: 404.5px;
+  margin: 35px 0 140px 0;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 615px) {
+
+  header img{
+    width: 165px;
+    margin-left: -15%;
+  }
+  
+  header h1{
+    font-size: 44px;
+    margin-left: -15%;
+  }
+
+  h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: -15%;
+  }
+
+  input{
+    max-width: 75%;
+  }
+  button{
+    color: #fff;
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 55px;
+    font-size: 24px;
+  }
+  
+  .buttonEntrar{
+    width: 214px;
+    margin: 44px 0 27px 15%;
+  }
+  .buttonEntrarProvedor{
+    width: 60%;
+    margin: 35px 0 140px -15%;
+  }
+}
